@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #fff;
+  font-size: 2.4rem;
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  cursor: default;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header-logo {
+  display: inline-block;
+  width: 246px;
+  height: 101px;
+  padding-left: 70px;
+  margin: 26px 0 28px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+  margin: 63px 0 65px;
+  padding-right: 30px;
+}
+.header-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 580px;
+}
+.header-nav__list > a {
+  font-size: 1.6rem;
+  color: #252b42;
+  padding: 10px;
+  font-weight: 600;
+}
+.header-nav__list a:hover {
+  color: #fa4a0c;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.download-text {
+  margin-top: 73px;
+  padding-bottom: 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1005px;
+  height: 326px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 5.8rem;
+  line-height: 80px;
+}
+.download-text h3 {
+  font-size: 2.4rem;
+  line-height: 36px;
+  color: #f7f7f7;
+}
+.download-text span {
+  display: inline-block;
+  font-size: 2.4rem;
+  line-height: 36px;
+  color: #f7f7f7;
+}
+.headerDownload {
+  background-image: url("/img/fon1.png");
+  width: 1440px;
+  height: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 20px;
+  z-index: 20;
+}
+.btn-playStore__header,
+.btn-appStore__header {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 36px;
+  border: 1px solid white;
+  padding: 16px 58px;
+  border-radius: 30px;
+}
+.btn-playStore__header {
+  margin-right: 34px;
+}
+
+.btn-playStore__header:hover,
+.btn-appStore__header:hover,
+.btn-playStore__footer:hover,
+.btn-appStore__footer:hover {
+  background-color: #fa4a0c;
+  border: 1px solid #fa4a0c;
+}
+
+.appStore:hover {
+  background-color: #fa4a0c;
+  border: 1px solid #fa4a0c;
+}
+
+.phones {
+  display: flex;
+  justify-content: center;
+  margin-top: -222px;
+  margin-bottom: 130px;
+}
+
+.line {
+  background-color: #e4e4e4;
+  margin: 0 auto;
+  width: 884px;
+  height: 5px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  opacity: 0.8;
+  color: #000000;
+  font-size: 4.4rem;
+  line-height: 36px;
+  margin: 78px auto 66px;
+}
+
+.mainAppWork__text {
+  width: 570px;
+  height: 280px;
+}
+
+.mainAppWork {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mainAppWork__text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+}
+
+.mainAppWork__text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin: 32px auto 50px;
+}
+
+.mainAppWork__text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footerDownload {
+  background-image: url("/img/FooterBG.png");
+  width: 1440px;
+  height: 510px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerDownload h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.footerDownload__text {
+  margin-top: 115px;
+  padding-bottom: 85px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-playStore__footer,
+.btn-appStore__footer {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 36px;
+  border: 1px solid white;
+  padding: 28px 58px;
+  border-radius: 15px;
+}
+.btn-playStore__footer {
+  margin-right: 34px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 66px 0 80px;
+}
+
+.footer-copy {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5c5c5c;
+}
+
+.footer-icons a {
+  margin-right: 30px;
+}
+.footer-logo {
+  margin-left: 30px;
+}
+
+.footer-copy {
+  margin-right: 30px;
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+  }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  
+}
