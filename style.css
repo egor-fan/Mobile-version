@@ -6,8 +6,7 @@ html {
   font-size: 10px;
 }
 body {
-  background-color: #fff;
-  font-size: 2.4rem;
+  background-color: #bcbaba;
   color: #737373;
   font-family: "Montserrat", sans-serif;
   cursor: default;
@@ -20,25 +19,27 @@ a {
   text-decoration: none;
 }
 .wrapper {
-  width: 1440px;
+  width: 414px;
   margin: 0 auto;
+  background-color: #fff;
 }
+
 .header-logo {
   display: inline-block;
-  width: 246px;
-  height: 101px;
-  padding-left: 70px;
-  margin: 26px 0 28px;
+  margin-left: 15px;
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: 112px;
 }
+
 .header-nav {
-  margin: 63px 0 65px;
-  padding-right: 30px;
+  margin-right: 15px;
 }
+/*
 .header-nav__list {
   display: flex;
   justify-content: space-between;
@@ -54,43 +55,51 @@ a {
 .header-nav__list a:hover {
   color: #fa4a0c;
 }
+*/
 .download {
-  display: flex;
-  justify-content: center;
-  color: #fff;
 }
 .download-text {
-  margin-top: 73px;
-  padding-bottom: 48px;
+  margin-top: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1005px;
-  height: 326px;
+  width: 414px;
+  height: 282px;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-  font-size: 5.8rem;
-  line-height: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
 }
 .download-text h3 {
-  font-size: 2.4rem;
-  line-height: 36px;
-  color: #f7f7f7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #737373;
 }
 .download-text span {
-  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 2.4rem;
-  line-height: 36px;
-  color: #f7f7f7;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 90px;
 }
 .headerDownload {
-  background-image: url("/img/fon1.png");
-  width: 1440px;
-  height: 620px;
+  background-color: #fafafa;
+  width: 414px;
+  height: 890px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -98,21 +107,29 @@ h1 {
 }
 
 .btn {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: 20;
+}
+
+.btn a {
+  text-align: center;
+  padding-top: 15px;
 }
 .btn-playStore__header,
 .btn-appStore__header {
-  color: #fff;
+  display: block;
+  color: #fa4a0c;
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 36px;
-  border: 1px solid white;
-  padding: 16px 58px;
+  border: 1.5px solid #fa4a0c;
+  width: 236px;
+  height: 68px;
   border-radius: 30px;
-}
-.btn-playStore__header {
-  margin-right: 34px;
+  margin-bottom: 17px;
 }
 
 .btn-playStore__header:hover,
@@ -121,42 +138,41 @@ h1 {
 .btn-appStore__footer:hover {
   background-color: #fa4a0c;
   border: 1px solid #fa4a0c;
+  color: #fff;
 }
 
 .appStore:hover {
   background-color: #fa4a0c;
-  border: 1px solid #fa4a0c;
+  border: 1.5px solid #fa4a0c;
 }
 
 .phones {
   display: flex;
   justify-content: center;
-  margin-top: -222px;
-  margin-bottom: 130px;
+  margin-top: -500px;
 }
 
 .line {
   background-color: #e4e4e4;
   margin: 0 auto;
-  width: 884px;
-  height: 5px;
+  width: 414px;
+  height: 3px;
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  opacity: 0.8;
-  color: #000000;
-  font-size: 4.4rem;
+  font-size: 2.4rem;
   line-height: 36px;
-  margin: 78px auto 66px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin-bottom: 50px;
 }
 
-.mainAppWork__text {
-  width: 570px;
-  height: 280px;
+.mainAppWork img {
+  margin-top: -110px;
+  margin-bottom: -200px;
 }
 
 .mainAppWork {
@@ -171,8 +187,10 @@ h2 {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 36px;
+  text-align: center;
   letter-spacing: 0.1px;
   color: #fa4a0c;
+  margin-top: 65px;
 }
 
 .mainAppWork__text h2 {
@@ -189,19 +207,21 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 24px;
+  text-align: center;
   line-height: 38px;
   letter-spacing: 0.2px;
   color: #737373;
 }
 
 .footerDownload {
-  background-image: url("/img/FooterBG.png");
-  width: 1440px;
-  height: 510px;
+  background-color: #252b42;
+  width: 100%;
+  height: 564px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
 
 .footerDownload h1 {
@@ -223,15 +243,29 @@ h2 {
   justify-content: center;
 }
 
+.footerDownload__text span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #bdbdbd;
+}
+
+.footer_btn a {
+  padding: 18px 31px;
+}
+
 .btn-playStore__footer,
 .btn-appStore__footer {
   color: #fff;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   line-height: 36px;
   border: 1px solid white;
   padding: 28px 58px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .btn-playStore__footer {
   margin-right: 34px;
@@ -239,36 +273,26 @@ h2 {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 66px 0 80px;
+  margin-top: 60px;
+  padding-bottom: 45px;
 }
 
-.footer-copy {
+.footer-icons a {
+  margin-right: 24px;
+}
+.footer-icons a:last-child {
+  margin-right: 0;
+}
+
+.footer-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 18px;
   letter-spacing: 0.1px;
   color: #5c5c5c;
-}
-
-.footer-icons a {
-  margin-right: 30px;
-}
-.footer-logo {
-  margin-left: 30px;
-}
-
-.footer-copy {
-  margin-right: 30px;
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { 
-  }
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {
-  
+  margin-top: 8px;
 }
