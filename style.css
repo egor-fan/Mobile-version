@@ -5,12 +5,25 @@
 html {
   font-size: 10px;
 }
+
 body {
   background-color: #bcbaba;
   color: #737373;
   font-family: "Montserrat", sans-serif;
   cursor: default;
+  max-width: 100%;
 }
+
+.container {
+}
+
+img {
+  max-width: 100%;
+}
+
+.phones img {
+}
+
 ul {
   list-style: none;
 }
@@ -19,7 +32,9 @@ a {
   text-decoration: none;
 }
 .wrapper {
-  width: 414px;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -32,8 +47,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: 112px;
+  max-width: 100%;
+  min-height: 90px;
 }
 
 .header-nav {
@@ -56,7 +71,9 @@ a {
   color: #fa4a0c;
 }
 */
-.download {
+.mainAppWork {
+  display: flex;
+  flex-direction: column;
 }
 .download-text {
   margin-top: 50px;
@@ -64,8 +81,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 414px;
-  height: 282px;
+  width: 100%;
+  min-height: 282px;
 }
 
 h1 {
@@ -98,9 +115,10 @@ h1 {
 }
 .headerDownload {
   background-color: #fafafa;
-  width: 414px;
-  height: 890px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
+  padding-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,13 +167,12 @@ h1 {
 .phones {
   display: flex;
   justify-content: center;
-  margin-top: -500px;
 }
 
 .line {
   background-color: #e4e4e4;
   margin: 0 auto;
-  width: 414px;
+  width: 100%;
   height: 3px;
 }
 
@@ -216,7 +233,7 @@ h2 {
 .footerDownload {
   background-color: #252b42;
   width: 100%;
-  height: 564px;
+  min-height: 564px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -267,6 +284,7 @@ h2 {
   padding: 28px 58px;
   border-radius: 10px;
 }
+
 .btn-playStore__footer {
   margin-right: 34px;
 }
@@ -295,4 +313,37 @@ footer {
   letter-spacing: 0.1px;
   color: #5c5c5c;
   margin-top: 8px;
+  text-align: center;
+}
+
+@media (max-width: 380px) {
+  .footer_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footerDownload__text {
+    padding-bottom: 30px;
+  }
+  .btn-playStore__footer {
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+  .footer_btn a {
+    padding: 10px 43px;
+  }
+  .btn-playStore__footer {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  h1,
+  .mainAppWork__text h2,
+  .footerDownload__text h1 {
+    font-size: 3rem;
+    line-height: 35px;
+  }
+  .footerDownload__text {
+    margin-top: 80px;
+    padding-bottom: 10px;
+  }
 }
